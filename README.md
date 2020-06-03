@@ -1,7 +1,14 @@
 ## Nex Level Week: Aplicação web do zero - Rocketseat
 
-**Desafio:**
-1. Criar uma aplicação com informações de pontos de coleta da sua cidade
+**Desafios:**
+
+1. Criar uma aplicação web com informações de pontos de coleta da sua cidade
+
+**Layout da aplicação:**
+
+<h1 align="center">
+    <img alt="MagicJvers" src="./challenges/design-complete.png" width="400px" />
+</h1>
 
 ### :computer: Tecnologias
 
@@ -9,4 +16,4 @@
 - [HTML](https://www.w3.org)
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 
-Por: Lucas Victor :tada: 
+Por: Lucas Victor 
