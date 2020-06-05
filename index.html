@@ -4,13 +4,17 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./css/home.css">
-        <link rel="stylesheet" href="./css/main.css">
-        <link rel="stylesheet" href="./css/responsive.css">
+        <!-- import de duas fontes numa única chamada -->
+        <link rel="stylesheet" href="/css/home.css">
+        <link rel="stylesheet" href="/css/modal.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/responsive.css">
+        <!-- seguir ordem de importação para não sobrescrever estilos distintos da mesma página -->
         <title>Ecoleta</title>
     </head>
     <body>
-        <div class="page-home">
+        <!-- conteúdo principal -->
+        <div id="page-home">
             <div class="content">   
                 <header class="">
                     <img src="./assets/logo.svg" alt="Logomarca">
@@ -30,5 +34,24 @@
                 </main>            
             </div>
         </div>
+        <!-- modal para exibição dos campos de pesquisa por localidade -->
+        <div id="modal" class="hide">
+            <div class="content">
+                <div class="header">
+                    <h1>Pontos de coleta</h1>
+                    <a href="#">Fechar</a>
+                </div>
+                <form action="">
+                    <label for="search">Cidade</label>
+                    <div class="search field">
+                        <input type="text" name="search" placeholder="Pesquise por cidade">
+                        <button>
+                           <img src="/assets/search.svg" alt="Buscar">
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="/scripts/index.js"></script>
     </body>
 </html> 
