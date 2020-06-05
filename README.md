@@ -7,7 +7,7 @@
 **Layout da aplicação:**
 
 <h1 align="center">
-    <img alt="MagicJvers" src="./challenges/design-complete.png" width="400px" />
+    <img alt="MagicJvers" src="./challenges/design-complete.png" width="70%" height="40%"/>
 </h1>
 
 ### :computer: Tecnologias
